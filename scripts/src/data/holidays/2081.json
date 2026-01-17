@@ -1,0 +1,272 @@
+{
+  "1-1": {
+    "date": "2081-1-1",
+    "event": "नयाँ वर्ष/मेष संक्रान्ति/बिस्का: जात्रा / Nepali New Year/Mesh Sankranti/Biska Jatra",
+    "isPublicHoliday": true,
+    "adDate": "2024 April 13"
+  },
+  "1-5": {
+    "date": "2081-1-5",
+    "event": "श्री राम नवमी व्रत / Shree Ram Nawami Vrata",
+    "isPublicHoliday": true,
+    "adDate": "2024 April 17"
+  },
+  "1-19": {
+    "date": "2081-1-19",
+    "event": "अन्तर्राष्ट्रिय श्रमिक दिवस/बुधाष्टमी व्रत/गोरखकाली पूजा / International Labour Day/Budhaastami Vrata/Gorakhkali Puja",
+    "isPublicHoliday": true,
+    "adDate": "2024 May 1"
+  },
+  "2-10": {
+    "date": "2081-2-10",
+    "event": "बुद्ध जयन्ती/उभौली पर्व/चण्डेश्वरी जात्रा/चण्डी पूर्णिमा/कुर्म जयन्ती/गोरखनाथ जयन्ती/पूर्णिमा व्रत/बैसाख स्नान समाप्ति / Buddha Jayanti/Ubhauli Parwa/Chandeshwari Jatra/Chandi Poornima/Kurma Jayanti/Gorakhnath Jayanti/Poornima Vrata/Baisakh Snan Samapti",
+    "isPublicHoliday": true,
+    "adDate": "2024 May 23"
+  },
+  "2-15": {
+    "date": "2081-2-15",
+    "event": "गणतन्त्र दिवस / National Republic Day",
+    "isPublicHoliday": true,
+    "adDate": "2024 May 28"
+  },
+  "3-3": {
+    "date": "2081-3-3",
+    "event": "बक्र ईद (उल–अजहा)/विश्व खडेरी विरुद्ध संघर्ष दिवस/स्मार्तहरूको निर्जला एकादशी व्रत / Bakar Eid (Eid al-Adha)/World Day to Combat Desertification and Drought/Nirjala Ekadashi Vrata (Smarta)",
+    "isPublicHoliday": true,
+    "adDate": "2024 June 17"
+  },
+  "4-20": {
+    "date": "2081-4-20",
+    "event": "भोटो जात्रा (उपत्यका विदा) / Bhoto jatra (Kathmandu Valley Only)",
+    "isPublicHoliday": true,
+    "adDate": "2024 August 4"
+  },
+  "5-3": {
+    "date": "2081-5-3",
+    "event": "जनै पूर्णिमा/रक्षा बन्धन/क्वाति खाने दिन/पूर्णिमा व्रत/ऋषितर्पणी/संस्कृत दिवस/विश्व फोटोग्राफी दिवस / Janai Poornima/Rakshya Bandhan/Kwati Khane Din/Poornima Vrata/Rishi Tarpani/Sanskrit Diwas/World Photography Day",
+    "isPublicHoliday": true,
+    "adDate": "2024 August 19"
+  },
+  "5-4": {
+    "date": "2081-5-4",
+    "event": "गाईजात्रा (नेवा समुदायलाई मात्र) / Gaijatra",
+    "isPublicHoliday": true,
+    "adDate": "2024 August 20"
+  },
+  "5-10": {
+    "date": "2081-5-10",
+    "event": "श्रीकृष्ण जन्माष्टमी/गाैरा पर्व (सम्बन्धित समुदायलाई मात्र)/गोरखकाली पूजा / Shree Krishna Janmashtami/Gaura Parva/Gorakhkali Puja",
+    "isPublicHoliday": true,
+    "adDate": "2024 August 26"
+  },
+  "5-21": {
+    "date": "2081-5-21",
+    "event": "हरितालिका तीज (महिला कर्मचारीहरूलाई मात्र) / Haritalika Teej",
+    "isPublicHoliday": true,
+    "adDate": "2024 September 6"
+  },
+  "6-1": {
+    "date": "2081-6-1",
+    "event": "विश्वकर्मा पूजा/कन्या संक्रान्ति/इन्द्रजात्रा (उपत्यका बिदा)/राष्ट्रिय चलचित्र दिवस/वास्तु दिवस/अनन्त चतुर्दशी व्रत/पूर्णिमा व्रत/विश्व बिरामी सुरक्षा दिवस/राष्ट्रिय विज्ञान दिवस / Bishwakarma Pooja/Kanya Sankranti/Indra Jaatra/National Film Day/Wastu Diwas/Ananta Chaturdashi Vrata/Poornima Vrata/World Patient Safety Day/National Science Day",
+    "isPublicHoliday": true,
+    "adDate": "2024 September 17"
+  },
+  "6-3": {
+    "date": "2081-6-3",
+    "event": "संविधान दिवस/द्वितीया श्राद्ध / Constitution Day/Dwitiya Shradhha",
+    "isPublicHoliday": true,
+    "adDate": "2024 September 19"
+  },
+  "6-9": {
+    "date": "2081-6-9",
+    "event": "अष्टमी श्राद्ध/बुधाष्टमी/गोरखकाली पूजा/जितियापर्व (पर्व मनाउने महिलाहरूलाई बिदा)/विश्व फार्मासिस्ट दिवस / Ashtami Shraddha/Budhastami/Gorakhkali Puja/Jitiya Parva/World Pharmacists Day",
+    "isPublicHoliday": true,
+    "adDate": "2024 September 25"
+  },
+  "6-17": {
+    "date": "2081-6-17",
+    "event": "घटस्थापना व्रत/नवरात्र आरम्भ / Ghatasthaapana Vrata/Navaraatra Arambha",
+    "isPublicHoliday": true,
+    "adDate": "2024 October 3"
+  },
+  "6-24": {
+    "date": "2081-6-24",
+    "event": "फूलपाती/विश्व दृष्टि दिवस/विश्व मानसिक स्वास्थ्य दिवस / Fulpati/World Sight Day/World Mental Health Day",
+    "isPublicHoliday": true,
+    "adDate": "2024 October 10"
+  },
+  "6-25": {
+    "date": "2081-6-25",
+    "event": "महाअष्टमी व्रत/कालरात्रि/महानवमी व्रत/गैर आवासीय नेपाली दिवस/गोरखकाली पूजा / Maha Ashtami Vrata/Kalratri/Maha Nawami Vrata/NRN Day/Gorakhkali Puja",
+    "isPublicHoliday": true,
+    "adDate": "2024 October 11"
+  },
+  "6-26": {
+    "date": "2081-6-26",
+    "event": "विजया दशमी/देवी विसर्जन / Bijaya Dashami/Devi Bisharjan",
+    "isPublicHoliday": true,
+    "adDate": "2024 October 12"
+  },
+  "6-27": {
+    "date": "2081-6-27",
+    "event": "पापांकुशा एकादशी व्रत/अन्तर्राष्ट्रिय प्रकोप जोखिम न्यूनीकरण दिवस / Papakunsa Ekadashi Vrata/International Day for Disaster Risk Reduction",
+    "isPublicHoliday": true,
+    "adDate": "2024 October 13"
+  },
+  "6-28": {
+    "date": "2081-6-28",
+    "event": "दशैं विदा / Dashain Holiday",
+    "isPublicHoliday": true,
+    "adDate": "2024 October 14"
+  },
+  "7-15": {
+    "date": "2081-7-15",
+    "event": "लक्ष्मी पूजा/महाकवी लक्ष्मीप्रसाद देवकोटाको जन्म जयन्ती/कुकुर तिहार/नरक चतुर्दशी/सुखरात्री/विश्व शहरीकरण दिवस / Laxmi Pooja/Laxmi Prasad Devkota Janma Jayanti/Kukur Tihar/Narak Chaturdashi/Sukha Ratri/World Cities Day",
+    "isPublicHoliday": true,
+    "adDate": "2024 October 31"
+  },
+  "7-16": {
+    "date": "2081-7-16",
+    "event": "तिहार बिदा / Tihar Holiday",
+    "isPublicHoliday": true,
+    "adDate": "2024 November 1"
+  },
+  "7-17": {
+    "date": "2081-7-17",
+    "event": "गोवर्धन पूजा/गाईगोरु पूजा/म्हपूजा/हलि तिहार/नेपाल सम्वत ११४५ प्रारम्भ / Gobardan Puja/Gaigoru Puja/Mha Puja/Hali Tihar/Nepal Sambat 1145 Starts",
+    "isPublicHoliday": true,
+    "adDate": "2024 November 2"
+  },
+  "7-18": {
+    "date": "2081-7-18",
+    "event": "भाइटीका/किजा पूजा / Bhai TIka/Kija Pooja",
+    "isPublicHoliday": true,
+    "adDate": "2024 November 3"
+  },
+  "7-19": {
+    "date": "2081-7-19",
+    "event": "तिहार बिदा / Tihar Holiday",
+    "isPublicHoliday": true,
+    "adDate": "2024 November 4"
+  },
+  "7-22": {
+    "date": "2081-7-22",
+    "event": "छठ पर्व / Chhath Parva",
+    "isPublicHoliday": true,
+    "adDate": "2024 November 7"
+  },
+  "7-25": {
+    "date": "2081-7-25",
+    "event": "कुष्मान्ड नवमी व्रत/महागुरु फाल्गुनन्द जयन्ती (किराँत धर्मावलम्बीहरूलाई मात्र)/शान्ति र विकासको लागि विश्व विज्ञान दिवस / Kusmaanda Nawami Vrata/Falgunanda Jayanti/World Science Day for Peace and Development",
+    "isPublicHoliday": true,
+    "adDate": "2024 November 10"
+  },
+  "7-30": {
+    "date": "2081-7-30",
+    "event": "गुरु नानक जयन्ती (सिख धर्मावलम्बीहरूलाई मात्र)/निम्बार्काचार्य जयन्ती/चतुर्मास व्रत समाप्ति/कार्तिक स्नान समाप्ति/पूर्णिमा व्रत / Guru Nanak Jayanti/Nimbarkacharya Jayanti/Chaturmas Vrata Samapti/Kartik Snan Samapti/Poornima Vrata",
+    "isPublicHoliday": true,
+    "adDate": "2024 November 15"
+  },
+  "8-18": {
+    "date": "2081-8-18",
+    "event": "अन्तर्राष्ट्रिय अपाङ्ग दिवस (विशेष क्षमता भएका कर्मचारीलाई मात्र) / International Day of Disabled Persons",
+    "isPublicHoliday": true,
+    "adDate": "2024 December 3"
+  },
+  "8-30": {
+    "date": "2081-8-30",
+    "event": "उधौली पर्व/धान्यपुर्णिमा/य:मरि पुन्हि/ज्यापु दिवस/गढीमाई मेला समाप्ती / Udhauli Parva/Dhanya Poornima/Yomari Punhi/Jyapu Diwas/Gadimaai Mela Ends",
+    "isPublicHoliday": true,
+    "adDate": "2024 December 15"
+  },
+  "9-10": {
+    "date": "2081-9-10",
+    "event": "क्रिसमस-डे / Christmas",
+    "isPublicHoliday": true,
+    "adDate": "2024 December 25"
+  },
+  "9-15": {
+    "date": "2081-9-15",
+    "event": "तमु ल्होसार/सोमबारे औंसी/कवि शिरोमणि लेखनाथ जयन्ती / Tamu Lhosar/Sombare Aunshi/Kavi Siromani Lekhnath Jayanti",
+    "isPublicHoliday": true,
+    "adDate": "2024 December 30"
+  },
+  "9-27": {
+    "date": "2081-9-27",
+    "event": "पृथ्वी जयन्ती/राष्ट्रिय एकता दिवस/शनि प्रदोष व्रत / Prithivi Jayanti/Rashtriya Ekata Diwas/Shani Pradosh Vrata",
+    "isPublicHoliday": true,
+    "adDate": "2025 January 11"
+  },
+  "10-1": {
+    "date": "2081-10-1",
+    "event": "माघे संक्रान्ति/घ्यु चाकु खाने दिन/उत्तरायण आरम्भ / Makar Sankranti/Ghiu chaku khane Din/Uttarayan Arambha",
+    "isPublicHoliday": true,
+    "adDate": "2025 January 14"
+  },
+  "10-16": {
+    "date": "2081-10-16",
+    "event": "शहीद दिवस / Martyrs Day",
+    "isPublicHoliday": true,
+    "adDate": "2025 January 29"
+  },
+  "10-17": {
+    "date": "2081-10-17",
+    "event": "सोनाम ल्होछार/श्रीबल्लभ जयन्ती / Sonam Lhochhar/Shree Ballav Jayanti",
+    "isPublicHoliday": true,
+    "adDate": "2025 January 30"
+  },
+  "11-7": {
+    "date": "2081-11-7",
+    "event": "प्रजातन्त्र दिवस/निर्वाचन दिवस / Democracy Day/Election Day",
+    "isPublicHoliday": true,
+    "adDate": "2025 February 19"
+  },
+  "11-14": {
+    "date": "2081-11-14",
+    "event": "महाशिवरात्रि व्रत/सिलाचःह्रे पूजा/सेना दिवस / Maha Sivaratri Vrata/Silachahre Puja/National Army Day",
+    "isPublicHoliday": true,
+    "adDate": "2025 February 26"
+  },
+  "11-16": {
+    "date": "2081-11-16",
+    "event": "ग्याल्पो ल्होछार / Gyalpo Lhosar",
+    "isPublicHoliday": true,
+    "adDate": "2025 February 28"
+  },
+  "11-24": {
+    "date": "2081-11-24",
+    "event": "अन्तर्राष्ट्रिय नारी दिवस / International Women's Day",
+    "isPublicHoliday": true,
+    "adDate": "2025 March 8"
+  },
+  "11-29": {
+    "date": "2081-11-29",
+    "event": "फागु पुर्णिमा (पहाडी जिल्ला)/पूर्णिमा व्रत / Fagu Poornima / Holi/Poornima Vrata",
+    "isPublicHoliday": true,
+    "adDate": "2025 March 13"
+  },
+  "12-1": {
+    "date": "2081-12-1",
+    "event": "मीन संक्रान्ति/फागु पुर्णिमा (तराई होली)/विश्व उपभोक्ता अधिकार दिवस / Meen Sankranti/Fagu Poornima (Terai)/World Consumer Rights Day",
+    "isPublicHoliday": true,
+    "adDate": "2025 March 14"
+  },
+  "12-16": {
+    "date": "2081-12-16",
+    "event": "घोडे जात्रा (उपत्यका बिदा)/विश्व नेवाः दिवस / Ghode Jaatra/World Newah Day",
+    "isPublicHoliday": true,
+    "adDate": "2025 March 29"
+  },
+  "12-18": {
+    "date": "2081-12-18",
+    "event": "ईद उल फितर/मत्स्य जयन्ती व्रत/मत्स्यनारायण मेला / Eid Ul Fitr/Matsya Jayanti Vrata/Matsyanarayan Mela",
+    "isPublicHoliday": true,
+    "adDate": "2025 March 31"
+  },
+  "12-24": {
+    "date": "2081-12-24",
+    "event": "रामनवमी व्रत/अन्तर्राष्ट्रिय विकास र शान्तिको लागि खेलकुद दिवस / Ram Nawami Vrata/International Day of Sport for Development and Peace",
+    "isPublicHoliday": true,
+    "adDate": "2025 April 6"
+  }
+}

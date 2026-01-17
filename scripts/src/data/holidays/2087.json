@@ -1,0 +1,290 @@
+{
+  "1-1": {
+    "date": "2082-1-1",
+    "event": "नयाँ वर्ष/मेष संक्रान्ति/बिस्का: जात्रा / Nepali New Year/Mesh Sankranti/Biska Jatra",
+    "isPublicHoliday": true,
+    "adDate": "2025 April 14"
+  },
+  "1-18": {
+    "date": "2082-1-18",
+    "event": "अन्तर्राष्ट्रिय  श्रमिक दिवस/बुंगद्यः (रातो मच्छिन्द्रनाथ) रथ यात्रा प्रारम्भ / International Labour Day/Bungadyo : Rato Matsyandranath Rath Yatra Prambha",
+    "isPublicHoliday": true,
+    "adDate": "2025 May 1"
+  },
+  "1-24": {
+    "date": "2082-1-24",
+    "event": "प्रदेश सरकारको सरकारी कामकाजको भाषा सम्बन्धी दिवस(बागमती प्रदेशका लागि मात्र)/किराँत समाज सुधार दिवस / Provincial Government Official Language Day/Kirat Samaj Sudhar Diwas",
+    "isPublicHoliday": true,
+    "adDate": "2025 May 7"
+  },
+  "1-29": {
+    "date": "2082-1-29",
+    "event": "बुद्ध जयन्ती/उभौली पर्व/चण्डेश्वरी जात्रा/चण्डी पूर्णिमा/कुर्म जयन्ती/गोरखनाथ जयन्ती/पूर्णिमा व्रत/बैसाख स्नान समाप्ति/अन्तर्राष्ट्रिय नर्स दिवस / Buddha Jayanti/Ubhauli Parwa/Chandeshwari Jatra/Chandi Poornima/Kurma Jayanti/Gorakhnath Jayanti/Poornima Vrata/Baisakh Snan Samapti/International Nurses Day",
+    "isPublicHoliday": true,
+    "adDate": "2025 May 12"
+  },
+  "2-15": {
+    "date": "2082-2-15",
+    "event": "गणतन्त्र दिवस / Republic Day",
+    "isPublicHoliday": true,
+    "adDate": "2025 May 29"
+  },
+  "2-18": {
+    "date": "2082-2-18",
+    "event": "भोटो जात्रा (उपत्यका विदा)/सिथि नख:/विश्व बुवाआमा दिवस / Bhoto jatra (Kathmandu Valley Only)/Sithi Nakha/Global Day Of Parents",
+    "isPublicHoliday": true,
+    "adDate": "2025 June 1"
+  },
+  "2-24": {
+    "date": "2082-2-24",
+    "event": "निर्जला एकादशी व्रत (तुलसीको दल राख्ने)/बकर ईद (ईद-उल-अज्हा) / Nirjala Ekadashi Vrata/Bakar Eid",
+    "isPublicHoliday": true,
+    "adDate": "2025 June 7"
+  },
+  "4-24": {
+    "date": "2082-4-24",
+    "event": "जनै पूर्णिमा/रक्षा बन्धन/क्वाति खाने दिन/पूर्णिमा व्रत/ऋषितर्पणी/संस्कृत दिवस/अन्तर्राष्ट्रिय आदिवासी दिवस/अन्तर्राष्ट्रिय भू संरक्षण दिवस / Janai Poornima/Rakshya Bandhan/Kwati Khane Din/Poornima Vrata/Rishi Tarpani/Sanskrit Diwas/International Day of the World's Indigenous Peoples/International Soil Conservation Day",
+    "isPublicHoliday": true,
+    "adDate": "2025 August 9"
+  },
+  "4-25": {
+    "date": "2082-4-25",
+    "event": "गाईजात्रा (बागमती प्रदेशका लागि मात्र) / Gaijatra(Bagmati Province only)",
+    "isPublicHoliday": true,
+    "adDate": "2025 August 10"
+  },
+  "4-31": {
+    "date": "2082-4-31",
+    "event": "श्रीकृष्ण जन्माष्टमी/गोरखकाली पूजा / Shree Krishna Janmashtami/Gorakhkali Puja",
+    "isPublicHoliday": true,
+    "adDate": "2025 August 16"
+  },
+  "5-10": {
+    "date": "2082-5-10",
+    "event": "हरितालिका तीज (महिला कर्मचारीहरूलाई मात्र) / Haritalika Teej",
+    "isPublicHoliday": true,
+    "adDate": "2025 August 26"
+  },
+  "5-15": {
+    "date": "2082-5-15",
+    "event": "राधा जन्मोत्सव/गाैरा पर्व (सम्बन्धित समुदायलाई मात्र)/गोरखकाली पूजा/दुर्वाष्टमी/राष्ट्रिय पुस्तकालय दिवस / Radha Janmotsav/Gaura Parva/Gorakhkali Puja/Durwashtami/National Library Day",
+    "isPublicHoliday": true,
+    "adDate": "2025 August 31"
+  },
+  "5-21": {
+    "date": "2082-5-21",
+    "event": "इन्द्रजात्रा (काठमाडौं उपत्यका बिदा)/अनन्त चतुर्दशी व्रत / Indra Jaatra/Ananta Chaturdashi Vrata",
+    "isPublicHoliday": true,
+    "adDate": "2025 September 6"
+  },
+  "5-30": {
+    "date": "2082-5-30",
+    "event": "नवमी श्राद्ध/जितियापर्व (पर्व मनाउने महिलाहरूलाई बिदा) / Nawami Shraddha/Jitiya Parva",
+    "isPublicHoliday": true,
+    "adDate": "2025 September 15"
+  },
+  "6-1": {
+    "date": "2082-6-1",
+    "event": "जेनजी आन्दोलन (शोक बिदा)/विश्वकर्मा पूजा/इन्दिरा एकादशी व्रत/एकादशी श्राद्ध/कन्या संक्रान्ति/वास्तु दिवस/राष्ट्रिय विज्ञान दिवस/विश्व बिरामी सुरक्षा दिवस / Gen Z Protest (Mourning Day)/Bishwakarma Pooja/Indira Ekadashi Vrata/Ekadashi Shraddha/Kanya Sankranti/Wastu Diwas/National Science Day/World Patient Safety Day",
+    "isPublicHoliday": true,
+    "adDate": "2025 September 17"
+  },
+  "6-3": {
+    "date": "2082-6-3",
+    "event": "त्रयोदशी श्राद्ध/मघा श्राद्ध/संविधान दिवस / Trayodashi Shraddha/Magha Shraddha/Sambidhan Diwas",
+    "isPublicHoliday": true,
+    "adDate": "2025 September 19"
+  },
+  "6-6": {
+    "date": "2082-6-6",
+    "event": "घटस्थापना व्रत/नवरात्र आरम्भ / Ghatasthaapana Vrata/Navaraatra Arambha",
+    "isPublicHoliday": true,
+    "adDate": "2025 September 22"
+  },
+  "6-13": {
+    "date": "2082-6-13",
+    "event": "फूलपाती/विश्व मुटु दिवस / Fulpati/World Heart Day",
+    "isPublicHoliday": true,
+    "adDate": "2025 September 29"
+  },
+  "6-14": {
+    "date": "2082-6-14",
+    "event": "महाअष्टमी व्रत/कालरात्रि/गोरखकाली पूजा/भाैमाष्टमी व्रत / Maha Ashtami Vrata/Kalratri/y/Bhaumashtami Vrata",
+    "isPublicHoliday": true,
+    "adDate": "2025 September 30"
+  },
+  "6-15": {
+    "date": "2082-6-15",
+    "event": "महानवमी व्रत/राष्ट्रिय चलचित्र दिवस/अन्तर्राष्ट्रिय ज्येष्ठ नागरिक दिवस / Maha Nawami Vrata/National Film Day/International Day of Older Persons",
+    "isPublicHoliday": true,
+    "adDate": "2025 October 1"
+  },
+  "6-16": {
+    "date": "2082-6-16",
+    "event": "विजया दशमी/देवी विसर्जन/विश्व अहिंसा दिवस / Bijaya Dashami/Devi Bisharjan/World Non Violence Day",
+    "isPublicHoliday": true,
+    "adDate": "2025 October 2"
+  },
+  "6-17": {
+    "date": "2082-6-17",
+    "event": "2082-06-17/विश्व मुस्कान दिवस / Papakunsa Ekadashi Vrata/World Smile Day",
+    "isPublicHoliday": true,
+    "adDate": "2025 October 3"
+  },
+  "6-18": {
+    "date": "2082-6-18",
+    "event": "दशैं विदा/शनि प्रदोष व्रत/विश्व पशु दिवस / Dashain Holiday/Shani Pradosh Vrata/World Animal Day",
+    "isPublicHoliday": true,
+    "adDate": "2025 October 4"
+  },
+  "7-3": {
+    "date": "2082-7-3",
+    "event": "लक्ष्मी पूजा/कुकुर तिहार/महाकवि लक्ष्मीप्रसाद देवकोटाको जन्म जयन्ती/नरक चतुर्दशी/सुखरात्री / Laxmi Pooja/Kukur Tihar/Laxmi Prasad Devkota Janma Jayanti/Narak Chaturdashi/Sukha Ratri",
+    "isPublicHoliday": true,
+    "adDate": "2025 October 20"
+  },
+  "7-4": {
+    "date": "2082-7-4",
+    "event": "तिहार बिदा / Tihar Holiday",
+    "isPublicHoliday": true,
+    "adDate": "2025 October 21"
+  },
+  "7-5": {
+    "date": "2082-7-5",
+    "event": "गोवर्धन पूजा/गाईगोरु पूजा/म्हपूजा/हलि तिहार/नेपाल सम्वत ११४६ प्रारम्भ / Gobardan Puja/Gaigoru Puja/Mha Puja/Hali Tihar/Nepal Sambat 1146 Starts",
+    "isPublicHoliday": true,
+    "adDate": "2025 October 22"
+  },
+  "7-6": {
+    "date": "2082-7-6",
+    "event": "भाइटीका/किजा पूजा / Bhai Tika/Kija Pooja",
+    "isPublicHoliday": true,
+    "adDate": "2025 October 23"
+  },
+  "7-7": {
+    "date": "2082-7-7",
+    "event": "तिहार  बिदा/संयुक्त राष्ट्रसंघ दिवस/विश्व विकास सूचना दिवस / Tihar Holiday/UN day/World Development Information Day",
+    "isPublicHoliday": true,
+    "adDate": "2025 October 24"
+  },
+  "7-10": {
+    "date": "2082-7-10",
+    "event": "छठ पर्व / Chhath Parva",
+    "isPublicHoliday": true,
+    "adDate": "2025 October 27"
+  },
+  "7-19": {
+    "date": "2082-7-19",
+    "event": "पूर्णिमा व्रत/सकिमना पुन्हि/चतुर्मास व्रत समाप्ति /कार्तिक स्नान समाप्ति/निम्बार्काचार्य जयन्ती/गुरु नानक जयन्ती (सिख धर्मावलम्बीहरूलाई मात्र) / Poornima Vrata/Sakimana Punhi/Chaturmas Wrata Samapti/ Kartik Snan Samapti/Nimbarkacharya jayanti/Guru Nanak Jayanti",
+    "isPublicHoliday": true,
+    "adDate": "2025 November 5"
+  },
+  "7-25": {
+    "date": "2082-7-25",
+    "event": "महागुरु फाल्गुनन्द जयन्ती (किराँत धर्मावलम्बीहरूलाई मात्र) / Falgunanda Jayanti",
+    "isPublicHoliday": true,
+    "adDate": "2025 November 11"
+  },
+  "8-17": {
+    "date": "2082-8-17",
+    "event": "अन्तर्राष्ट्रिय अपाङ्ग दिवस (विशेष क्षमता भएका कर्मचारीलाई मात्र) / International Day of Disabled Persons",
+    "isPublicHoliday": true,
+    "adDate": "2025 December 3"
+  },
+  "8-18": {
+    "date": "2082-8-18",
+    "event": "उँधौली पर्व/य:मरि पुन्हि/ज्यापु दिवस/पूर्णिमा व्रत/धान्यपुर्णिमा / Udhauli Parva/Yomari Punhi/Jyapu Diwas/Poornima Vrata/Dhanya Poornima",
+    "isPublicHoliday": true,
+    "adDate": "2025 December 4"
+  },
+  "9-10": {
+    "date": "2082-9-10",
+    "event": "क्रिसमस-डे / Christmas",
+    "isPublicHoliday": true,
+    "adDate": "2025 December 25"
+  },
+  "9-15": {
+    "date": "2082-9-15",
+    "event": "तमु ल्होसार/कवि शिरोमणि लेखनाथ जयन्ती/पुत्रदा एकादशी व्रत / Tamu Lhosar/Kavi Siromani Lekhnath Jayanti/Putrada Ekadashi Vrata",
+    "isPublicHoliday": true,
+    "adDate": "2025 December 30"
+  },
+  "9-27": {
+    "date": "2082-9-27",
+    "event": "पृथ्वी जयन्ती/राष्ट्रिय एकता दिवस/गोरखकाली पूजा / Prithivi Jayanti/Rashtriya Ekata Diwas/Gorakhkali Puja",
+    "isPublicHoliday": true,
+    "adDate": "2026 January 11"
+  },
+  "10-1": {
+    "date": "2082-10-1",
+    "event": "माघे संक्रान्ति/घ्यु चाकु खाने दिन/उत्तरायण आरम्भ/राष्ट्रिय योग दिवस / Makar Sankranti/Ghiu chaku khane Din/Uttarayan Arambha/National Yoga Day",
+    "isPublicHoliday": true,
+    "adDate": "2026 January 15"
+  },
+  "10-5": {
+    "date": "2082-10-5",
+    "event": "सोनाम ल्होछार/श्री वल्लभ जयन्ती / Sonam Lhochhar/Shree Ballav Jayanti",
+    "isPublicHoliday": true,
+    "adDate": "2026 January 19"
+  },
+  "10-9": {
+    "date": "2082-10-9",
+    "event": "वसन्तपञ्चमी व्रत/सरस्वती पूजा (शिक्षण संस्था बिदा) / Basanta Panchami vrata/Saraswati Pooja",
+    "isPublicHoliday": true,
+    "adDate": "2026 January 23"
+  },
+  "10-16": {
+    "date": "2082-10-16",
+    "event": "शहीद दिवस/प्रदोष व्रत / Sahid Diwas/Pradosh Vrata",
+    "isPublicHoliday": true,
+    "adDate": "2026 January 30"
+  },
+  "11-3": {
+    "date": "2082-11-3",
+    "event": "महा शिवरात्री / नेपाली सेना दिवस/सिलाचःह्रे पूजा / Maha-Shivaratri / Army Day/Silachahre Puja",
+    "isPublicHoliday": true,
+    "adDate": "2026 February 15"
+  },
+  "11-6": {
+    "date": "2082-11-6",
+    "event": "ग्याल्पो ल्होछार / Gyalpo Lhosar",
+    "isPublicHoliday": true,
+    "adDate": "2026 February 18"
+  },
+  "11-7": {
+    "date": "2082-11-7",
+    "event": "प्रजातन्त्र दिवस / निर्वाचन दिवस / Prajatantra Diwas / Election Day",
+    "isPublicHoliday": true,
+    "adDate": "2026 February 19"
+  },
+  "11-18": {
+    "date": "2082-11-18",
+    "event": "फागु पुर्णिमा (पहाडी जिल्ला)/पूर्णिमा व्रत / Fagu Poornima / Holi/Poornima Vrata",
+    "isPublicHoliday": true,
+    "adDate": "2026 March 2"
+  },
+  "11-19": {
+    "date": "2082-11-19",
+    "event": "फागु पुर्णिमा (तराइ होली)/खण्डग्रास चन्द्र ग्रहण/विश्व वन्यजन्तु दिवस / Fagu Poornima (Terai)/Khandagras Chandra Grahan/World Wildlife Day",
+    "isPublicHoliday": true,
+    "adDate": "2026 March 3"
+  },
+  "11-24": {
+    "date": "2082-11-24",
+    "event": "नारी दिवस / International Womens Day",
+    "isPublicHoliday": true,
+    "adDate": "2026 March 8"
+  },
+  "12-4": {
+    "date": "2082-12-4",
+    "event": "घोडेजात्रा (काठमाडौँ उपत्यकालाई बिदा) / Ghode Jaatra",
+    "isPublicHoliday": true,
+    "adDate": "2026 March 18"
+  },
+  "12-13": {
+    "date": "2082-12-13",
+    "event": "श्री राम नवमी व्रत/विश्व रङ्गमञ्च दिवस / Shree Ram Nawami Vrata/World Theater Day",
+    "isPublicHoliday": true,
+    "adDate": "2026 March 27"
+  }
+}

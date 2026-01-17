@@ -1,0 +1,266 @@
+{
+  "1-1": {
+    "date": "2080-1-1",
+    "event": "नयाँ वर्ष / मेष संक्रान्ति / बिस्का: जात्रा / Nepali New Year / Mesh Sankranti / Biska Jatra",
+    "isPublicHoliday": true,
+    "adDate": "2023 April 14"
+  },
+  "1-9": {
+    "date": "2080-1-9",
+    "event": "ईद उल फितर/परशुराम जयन्ती/विश्व पृथ्वी दिवस / Eid Ul Fitr/Parshuram Jayanti/World Earth Day",
+    "isPublicHoliday": true,
+    "adDate": "2023 April 22"
+  },
+  "1-18": {
+    "date": "2080-1-18",
+    "event": "मोहिनी एकादशी व्रत/अन्तर्राष्ट्रिय  श्रमिक दिवस / Mohini Ekadashi Brata/International Labour Day",
+    "isPublicHoliday": true,
+    "adDate": "2023 May 1"
+  },
+  "1-22": {
+    "date": "2080-1-22",
+    "event": "बुद्ध जयन्ती / उभौली पर्व / चण्डेश्वरी जात्रा/ चण्डी पूर्णिमा/कुर्म जयन्ती / गोरखनाथ जयन्ती/पूर्णिमा व्रत/बैसाख स्नान समाप्ति / Buddha Jayanti / Ubhauli Parwa/ Chandeshwari Jatra/Kurma Jayanti/ Gorakhnath Jayanti/poornima vrata/Baisakh Snan Samapti",
+    "isPublicHoliday": true,
+    "adDate": "2023 May 5"
+  },
+  "2-15": {
+    "date": "2080-2-15",
+    "event": "गणतन्त्र दिवस / Republic Day",
+    "isPublicHoliday": true,
+    "adDate": "2023 May 29"
+  },
+  "3-14": {
+    "date": "2080-3-14",
+    "event": "हरिशयनी एकादशी व्रत (तुलसी रोप्ने)/ईद उल अधा/चतुर्मास व्रत आरम्भ / Harishayani Ekadashi Wrata/Eid Al Adha/Chaturmaas Wrata Aarambha",
+    "isPublicHoliday": true,
+    "adDate": "2023 June 29"
+  },
+  "5-7": {
+    "date": "2080-5-7",
+    "event": "गौरा पर्व (सम्बन्धित क्षेत्रमा बिदा) / Gaura Parwa",
+    "isPublicHoliday": true,
+    "adDate": "2023 August 24"
+  },
+  "5-14": {
+    "date": "2080-5-14",
+    "event": "जनै पूर्णिमा / रक्षा बन्धन/गाईजात्रा / Janai Purnima/ Rakshya Bandhan/Gaijatra",
+    "isPublicHoliday": true,
+    "adDate": "2023 August 31"
+  },
+  "5-15": {
+    "date": "2080-5-15",
+    "event": "सापारु (गाईजात्रा) (काठमाडौँ बिदा)/रोपाईं जात्रा / Saparu (GaiJatra)/Ropai Jatra",
+    "isPublicHoliday": true,
+    "adDate": "2023 September 1"
+  },
+  "5-20": {
+    "date": "2080-5-20",
+    "event": "श्रीकृष्ण जन्माष्टमी/मानव बेचबिखन विरुद्धको राष्ट्रिय दिवस / Shree Krishna Janmashtami/National Day Against Human Trafficking",
+    "isPublicHoliday": true,
+    "adDate": "2023 September 6"
+  },
+  "6-1": {
+    "date": "2080-6-1",
+    "event": "हरितालिका तीज व्रत (महिला विदा)/विश्वकर्मा पूजा / कन्या संक्रान्ति / राष्ट्रिय चलचित्र दिवस/गणेश चतुर्थी व्रत/राष्ट्रिय धर्मसभा दिवस/वास्तु दिवस / Haritalika Teej Vrata/Bishwakarma Pooja / Kanya Shankranti / National Film Day/Ganesh Chaturthi Vrata/Rashtriya Dharmasabha Diwas/Wastu Diwas",
+    "isPublicHoliday": true,
+    "adDate": "2023 September 18"
+  },
+  "6-3": {
+    "date": "2080-6-3",
+    "event": "संविधान दिवस / National constitution Day of Nepal",
+    "isPublicHoliday": true,
+    "adDate": "2023 September 20"
+  },
+  "6-11": {
+    "date": "2080-6-11",
+    "event": "इन्द्रजात्रा (काठमाडौँ उपत्यका बिदा)/अनन्त चतुर्दशी व्रत/विश्व रेबिज विरुद्ध दिवस / अन्तर्राष्ट्रिय सूचनामा विश्वव्यापी पहुँचको दिवस / Indra Jatra/Ananta Chaturdashi Brata/World Rabies Day/ International Day for Universal Access to Information",
+    "isPublicHoliday": true,
+    "adDate": "2023 September 28"
+  },
+  "6-20": {
+    "date": "2080-6-20",
+    "event": "जितिया पर्व (पर्व मनाउने महिला कर्मचारीलाई मात्र बिदा)/नवमी श्राद्ध / Jitiya Parwa/Nawami Shraddha",
+    "isPublicHoliday": true,
+    "adDate": "2023 October 7"
+  },
+  "6-28": {
+    "date": "2080-6-28",
+    "event": "घटस्थापना / नवरात्र आरम्भ/अन्तर्राष्ट्रिय ग्रामीण महिला दिवस / विश्व हातधुने दिवस / Ghatasthapana/International Day of Rural Women/ Global Handwashing Day",
+    "isPublicHoliday": true,
+    "adDate": "2023 October 15"
+  },
+  "7-4": {
+    "date": "2080-7-4",
+    "event": "फूलपाती / Fulpati",
+    "isPublicHoliday": true,
+    "adDate": "2023 October 21"
+  },
+  "7-5": {
+    "date": "2080-7-5",
+    "event": "महाअष्टमी/ कालरात्रि / Maha astami",
+    "isPublicHoliday": true,
+    "adDate": "2023 October 22"
+  },
+  "7-6": {
+    "date": "2080-7-6",
+    "event": "महानवमी / Maha Nawami",
+    "isPublicHoliday": true,
+    "adDate": "2023 October 23"
+  },
+  "7-7": {
+    "date": "2080-7-7",
+    "event": "विजया दशमी/देवी विसर्जन/संयुक्त राष्ट्रसंघ दिवस / विश्व विकास सूचना दिवस / Bijaya Dashami/Devi Bisharjan/UN day / World Development Information Day",
+    "isPublicHoliday": true,
+    "adDate": "2023 October 24"
+  },
+  "7-8": {
+    "date": "2080-7-8",
+    "event": "पापांकुशा एकादशी व्रत / Papakunsa Ekadashi",
+    "isPublicHoliday": true,
+    "adDate": "2023 October 25"
+  },
+  "7-9": {
+    "date": "2080-7-9",
+    "event": "दशैं बिदा/प्रदोष व्रत / Dashain Holiday/Pradosh Vrata",
+    "isPublicHoliday": true,
+    "adDate": "2023 October 26"
+  },
+  "7-25": {
+    "date": "2080-7-25",
+    "event": "काग तिहार/धनवन्तरी जयन्ती/महागुरु फाल्गुनन्द जयन्ती (किराँत धर्मावलम्बीहरूलाई बिदा) / Kaag Tihar/Dhanawantari Jayanti/Falgunanda Jayanti",
+    "isPublicHoliday": true,
+    "adDate": "2023 November 11"
+  },
+  "7-26": {
+    "date": "2080-7-26",
+    "event": "लक्ष्मी पुजा / महाकवी लक्ष्मीप्रसाद देवकोटाको जन्म जयन्ती/नरक चतुर्दशी/सुखरात्री/कुकुर तिहार / Laxmi Pooja/ Laxmi Jayanti/Narak Chaturdashi/Sukha Ratri/Kukur Tihar",
+    "isPublicHoliday": true,
+    "adDate": "2023 November 12"
+  },
+  "7-27": {
+    "date": "2080-7-27",
+    "event": "गाई तिहार/सोमबारे औंसी / Gai Tihar/Sombare Aunshi",
+    "isPublicHoliday": true,
+    "adDate": "2023 November 13"
+  },
+  "7-28": {
+    "date": "2080-7-28",
+    "event": "गोवर्धन पूजा / म्ह: पूजा / नेपाल सम्वत ११४४ प्रारम्भ/विश्व मधुमेह दिवस / Gobardhan Pooja/ Mha: Pooja/ Nepal Sambat 1144/World Diabetes Day",
+    "isPublicHoliday": true,
+    "adDate": "2023 November 14"
+  },
+  "7-29": {
+    "date": "2080-7-29",
+    "event": "भाई टिका / किजा पूजा / Bhaai TIka/ Kija Pooja",
+    "isPublicHoliday": true,
+    "adDate": "2023 November 15"
+  },
+  "7-30": {
+    "date": "2080-7-30",
+    "event": "तिहार बिदा/अन्तर्राष्ट्रिय सहनशीलता दिवस / Tihar Holiday/International Day for Tolerance",
+    "isPublicHoliday": true,
+    "adDate": "2023 November 16"
+  },
+  "8-3": {
+    "date": "2080-8-3",
+    "event": "छठपर्व व्रत/विश्व शौचालय दिवस / Chhath Parwa Barta/World Toilet Day",
+    "isPublicHoliday": true,
+    "adDate": "2023 November 19"
+  },
+  "8-11": {
+    "date": "2080-8-11",
+    "event": "गुरु नानक जयन्ती (सिख धर्मावलम्बीहरुलाई मात्र बिदा)/निम्बार्काचार्य जयन्ती/चतुर्मास व्रत समाप्ति /कार्तिक स्नान समाप्ति / Guru Nanak Jayanti/Nimbarkacharya Jayanti/Chaturmas Wrata Samapti/ Kartik Snan Samapti",
+    "isPublicHoliday": true,
+    "adDate": "2023 November 27"
+  },
+  "8-17": {
+    "date": "2080-8-17",
+    "event": "अन्तर्राष्ट्रिय अपाङ्ग दिवस (अपाङ्गता भएका कर्मचारी मात्र बिदा) / International Day of Disabled Persons",
+    "isPublicHoliday": true,
+    "adDate": "2023 December 3"
+  },
+  "9-9": {
+    "date": "2080-9-9",
+    "event": "क्रिसमस-डे / Christmas",
+    "isPublicHoliday": true,
+    "adDate": "2023 December 25"
+  },
+  "9-10": {
+    "date": "2080-9-10",
+    "event": "उधौली पर्व / धान्यपुर्णिमा/य:मरि पुन्हि / ज्यापु दिवस/पूर्णिमा व्रत/दत्तात्रेय जयन्ती / Dhanya Poornima / Udhauli Parba/Yomari Punhi/Poornima Vrata/Dattatreya Jayanti",
+    "isPublicHoliday": true,
+    "adDate": "2023 December 26"
+  },
+  "9-15": {
+    "date": "2080-9-15",
+    "event": "तमु ल्होसार / Tamu Lhosar",
+    "isPublicHoliday": true,
+    "adDate": "2023 December 31"
+  },
+  "9-27": {
+    "date": "2080-9-27",
+    "event": "पृथ्वी जयन्ती / राष्ट्रिय एकता दिवस/तोल ल्होसार / Prithivi Jayanti /  Rashtriya Ekata Diwas/Tol Lhosar",
+    "isPublicHoliday": true,
+    "adDate": "2024 January 12"
+  },
+  "10-1": {
+    "date": "2080-10-1",
+    "event": "माघे संक्रान्ति / मकर संक्रान्ति / घ्यु चाकु खाने दिन / मकर स्नान आरम्भ/उत्तरायण आरम्भ / Makar Sankranti /Maghe Sankranti/ Ghiu chaku khane Din/Uttarayan Arambha",
+    "isPublicHoliday": true,
+    "adDate": "2024 January 15"
+  },
+  "10-27": {
+    "date": "2080-10-27",
+    "event": "सोनाम ल्होछार/श्रीबल्लभ जयन्ती / Sonam Lhochhar/Shree Ballav Jayanti",
+    "isPublicHoliday": true,
+    "adDate": "2024 February 10"
+  },
+  "11-2": {
+    "date": "2080-11-2",
+    "event": "वसन्तपञ्चमी व्रत /सरस्वती पूजा (शिक्षण संस्था बिदा)/प्रणय दिवस/राष्ट्रिय पुस्तक दिवस / Basanta Panchami Brata (Saraswati Pooja)/Valentine's Day/National Book Day",
+    "isPublicHoliday": true,
+    "adDate": "2024 February 14"
+  },
+  "11-7": {
+    "date": "2080-11-7",
+    "event": "प्रजातन्त्र दिवस / निर्वाचन दिवस / Prajatantra Diwas / Election Day",
+    "isPublicHoliday": true,
+    "adDate": "2024 February 19"
+  },
+  "11-25": {
+    "date": "2080-11-25",
+    "event": "महाशिवरात्रि व्रत/नेपाली सेना दिवस/सिलाचःह्रे पूजा/नारी दिवस/प्रदोष व्रत / Maha Sivaratri Brata/Army Day/Silachahre Puja/International Womens Day/Pradosh Vrata",
+    "isPublicHoliday": true,
+    "adDate": "2024 March 8"
+  },
+  "11-28": {
+    "date": "2080-11-28",
+    "event": "ग्याल्पो ल्होछार / Gyalpo Lhosar",
+    "isPublicHoliday": true,
+    "adDate": "2024 March 11"
+  },
+  "12-11": {
+    "date": "2080-12-11",
+    "event": "फागु पुर्णिमा (पहाडी जिल्ला)/पूर्णिमा व्रत/विश्व क्षयरोग दिवस / Fagu Poornima / Holi/Poornima Vrata/World Tuberculosis Day",
+    "isPublicHoliday": true,
+    "adDate": "2024 March 24"
+  },
+  "12-12": {
+    "date": "2080-12-12",
+    "event": "फागु पुर्णिमा (तराइ बिदा) / Fagu Poornima (Terai)",
+    "isPublicHoliday": true,
+    "adDate": "2024 March 25"
+  },
+  "12-26": {
+    "date": "2080-12-26",
+    "event": "घोडेजात्रा (काठमाडौँ उपत्यकालाई बिदा)/सोमबारे औंसी / Ghode Jaatra/Sombare Aunshi",
+    "isPublicHoliday": true,
+    "adDate": "2024 April 8"
+  },
+  "12-29": {
+    "date": "2080-12-29",
+    "event": "ईद उल फितर/मत्स्य जयन्ती व्रत/मत्स्यनारायण मेला/गौरी व्रत / Eid Ul Fitr/Matsya Jayanti Wrata/Matsyanarayan Mela/Gauri Wrata",
+    "isPublicHoliday": true,
+    "adDate": "2024 April 11"
+  }
+}

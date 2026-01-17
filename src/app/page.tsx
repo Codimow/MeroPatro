@@ -1,38 +1,30 @@
 "use client";
-
 import { useEffect, useState } from "react";
-import { Effect } from "effect";
+import { Plus } from "lucide-react";
 import { CalendarLayout } from "@/components/calendar-layout";
 import { CalendarHeader } from "@/components/calendar-header";
 import { CalendarGrid } from "@/components/calendar-grid";
 import { EventList } from "@/components/event-list";
-import { DateService, DateServiceLive, BSDate } from "@/lib/date-service";
+import { EventDialog } from "@/components/event-dialog";
+import { DateService, BSDate } from "@/lib/date-service";
 
 export default function Home() {
   const [currentDate, setCurrentDate] = useState<BSDate | null>(null);
   const [daysInMonth, setDaysInMonth] = useState(30);
+  const [isDialogOpen, setIsDialogOpen] = useState(false);
+  // Simple event refresh trigger
+  const [eventRefreshKey, setEventRefreshKey] = useState(0);
 
   // Initialize with current date
   useEffect(() => {
-    const program = Effect.gen(function* (_) {
-      const service = yield* _(DateService);
-      return yield* _(service.getCurrentBS);
-    }).pipe(Effect.provide(DateServiceLive));
-
-    const today = Effect.runSync(program);
+    const today = DateService.getCurrentBS();
     setCurrentDate(today);
   }, []);
 
   // Fetch days in month whenever date changes
   useEffect(() => {
     if (!currentDate) return;
-
-    const program = Effect.gen(function* (_) {
-      const service = yield* _(DateService);
-      return yield* _(service.getDaysInMonth(currentDate.year, currentDate.month));
-    }).pipe(Effect.provide(DateServiceLive));
-
-    const dims = Effect.runSync(program);
+    const dims = DateService.getDaysInMonth(currentDate.year, currentDate.month);
     setDaysInMonth(dims);
   }, [currentDate?.year, currentDate?.month]);
 
@@ -45,7 +37,6 @@ export default function Home() {
     } else {
       month -= 1;
     }
-    // Default to day 1 when switching months to avoid overflow issues logic
     setCurrentDate({ ...currentDate, year, month, day: 1 });
   };
 
@@ -62,11 +53,14 @@ export default function Home() {
   };
 
   const handleToday = () => {
-    const program = Effect.gen(function* (_) {
-      const service = yield* _(DateService);
-      return yield* _(service.getCurrentBS);
-    }).pipe(Effect.provide(DateServiceLive));
-    setCurrentDate(Effect.runSync(program));
+    setCurrentDate(DateService.getCurrentBS());
+  };
+
+  const handleSaveEvent = (event: { title: string; date: string; description: string }) => {
+    const existing = JSON.parse(localStorage.getItem("user_events") || "[]");
+    const newEvents = [...existing, { ...event, id: Date.now() }];
+    localStorage.setItem("user_events", JSON.stringify(newEvents));
+    setEventRefreshKey(k => k + 1); // Trigger re-render if components listen to it
   };
 
   if (!currentDate) {
@@ -81,21 +75,38 @@ export default function Home() {
     <CalendarLayout>
       <div className="flex flex-col lg:flex-row h-full">
         {/* Main Calendar Area */}
-        <div className="flex-1 flex flex-col border-r border-border/50">
+        <div className="flex-1 flex flex-col relative">
           <CalendarHeader
             currentDate={currentDate}
             onPrevMonth={handlePrevMonth}
             onNextMonth={handleNextMonth}
             onToday={handleToday}
           />
-          <CalendarGrid currentDate={currentDate} className="flex-1" />
+          <CalendarGrid currentDate={currentDate} className="flex-1" key={eventRefreshKey} />
+
+          {/* Floating Action Button */}
+          <button
+            onClick={() => setIsDialogOpen(true)}
+            className="absolute bottom-6 right-6 p-3 rounded-full bg-primary text-primary-foreground hover:bg-primary/90 transition-all shadow-md z-30"
+            aria-label="Add Event"
+          >
+            <Plus className="w-6 h-6" />
+          </button>
         </div>
 
         {/* Sidebar / Event List */}
-        <div className="w-full lg:w-96 bg-secondary/30 lg:h-auto border-t lg:border-t-0 bg-white/40 dark:bg-black/20 backdrop-blur-md">
-          <EventList currentDate={currentDate} daysInMonth={daysInMonth} />
+        <div className="w-full lg:w-80 border-t lg:border-t-0 lg:border-l border-border bg-muted/10">
+          <EventList currentDate={currentDate} daysInMonth={daysInMonth} key={`list-${eventRefreshKey}`} />
         </div>
       </div>
+
+      <EventDialog
+        isOpen={isDialogOpen}
+        onClose={() => setIsDialogOpen(false)}
+        currentDate={currentDate}
+        onSave={handleSaveEvent}
+      />
     </CalendarLayout>
   );
 }
+
