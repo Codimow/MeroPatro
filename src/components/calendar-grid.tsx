@@ -22,21 +22,17 @@ export function CalendarGrid({ currentDate, className }: CalendarGridProps) {
 
         setStartDayIndex(firstDay);
 
-        // Fetch User Events
         const userEventsRaw = localStorage.getItem("user_events");
         const userEvents = userEventsRaw ? JSON.parse(userEventsRaw) : [];
 
-        // Generate days data
         const generatedDays = [];
         for (let i = 1; i <= dims; i++) {
             const bsDate = { ...currentDate, day: i, dayOfWeek: (firstDay + i - 1) % 7 };
             const holiday = getHoliday(bsDate);
 
-            // Check for user events
             const dateKey = `${bsDate.year}-${bsDate.month}-${bsDate.day}`;
             const todaysEvents = userEvents.filter((e: any) => e.date === dateKey);
 
-            // Check if today
             const isToday = todayBS.year === bsDate.year &&
                 todayBS.month === bsDate.month &&
                 todayBS.day === bsDate.day;
@@ -49,15 +45,15 @@ export function CalendarGrid({ currentDate, className }: CalendarGridProps) {
     }, [currentDate.year, currentDate.month]);
 
     return (
-        <div className={cn("p-2 sm:p-4 overflow-y-auto scrollbar-hide", className)}>
+        <div className={cn("p-3 sm:p-4 lg:p-6 overflow-y-auto custom-scrollbar", className)}>
             {/* Weekday Headers */}
-            <div className="grid grid-cols-7 mb-2 sticky top-0 bg-background z-20 pb-2 border-b border-border">
+            <div className="grid grid-cols-7 mb-3 sticky top-0 bg-card/80 backdrop-blur-sm z-20 pb-3 border-b border-border/30">
                 {DAYS_OF_WEEK.map((day, i) => (
                     <div key={day} className="text-center">
-                        <div className="text-[10px] sm:text-xs font-semibold text-muted-foreground uppercase tracking-wider">
+                        <div className="text-[10px] sm:text-xs font-bold text-foreground/80 uppercase tracking-wider">
                             {day}
                         </div>
-                        <div className="text-[10px] text-muted-foreground/60 hidden sm:block">
+                        <div className="text-[9px] sm:text-[10px] text-muted-foreground/70 hidden sm:block mt-0.5">
                             {DAYS_OF_WEEK_NEPALI[i]}
                         </div>
                     </div>
@@ -65,10 +61,9 @@ export function CalendarGrid({ currentDate, className }: CalendarGridProps) {
             </div>
 
             {/* Days Grid */}
-            <div className="grid grid-cols-7 gap-1 sm:gap-2 auto-rows-fr">
-                {/* Empty cells */}
+            <div className="grid grid-cols-7 gap-1.5 sm:gap-2 lg:gap-3 auto-rows-fr">
                 {Array.from({ length: startDayIndex }).map((_, i) => (
-                    <div key={`empty-${i}`} className="min-h-[60px] sm:min-h-[80px]" />
+                    <div key={`empty-${i}`} className="min-h-[70px] sm:min-h-[90px] lg:min-h-[100px]" />
                 ))}
 
                 {days.map(({ day, bsDate, adDate, holiday, eventCount, isToday }) => {
@@ -80,25 +75,25 @@ export function CalendarGrid({ currentDate, className }: CalendarGridProps) {
                         <div
                             key={day}
                             className={cn(
-                                "relative min-h-[60px] sm:min-h-[80px] p-1 sm:p-2 flex flex-col justify-between transition-colors border rounded-md",
-                                "border-transparent hover:bg-muted/50 hover:border-border",
+                                "relative min-h-[70px] sm:min-h-[90px] lg:min-h-[100px] p-2 sm:p-3 flex flex-col justify-between transition-all duration-200 border rounded-xl group cursor-pointer",
+                                "hover:shadow-lg hover:scale-[1.02] hover:z-10",
                                 isToday
-                                    ? "bg-primary text-primary-foreground border-primary"
+                                    ? "bg-primary text-primary-foreground border-primary shadow-md ring-2 ring-primary/50"
                                     : (isSat || hasEvent)
-                                        ? "text-red-600 dark:text-red-400 bg-red-50/50 dark:bg-red-950/20"
-                                        : "bg-card text-card-foreground"
+                                        ? "text-destructive dark:text-destructive bg-destructive/5 dark:bg-destructive/10 border-destructive/20 hover:border-destructive/40"
+                                        : "bg-card/50 backdrop-blur-sm text-card-foreground border-border/40 hover:bg-card hover:border-border"
                             )}
                         >
                             {/* Top Row: Date & AD Date */}
                             <div className="flex justify-between items-start">
                                 <span className={cn(
-                                    "text-sm sm:text-lg font-bold font-sans",
+                                    "text-lg sm:text-2xl lg:text-3xl font-bold tabular-nums transition-transform group-hover:scale-110",
                                 )}>
                                     {day}
                                 </span>
                                 {adDate && (
                                     <span className={cn(
-                                        "text-[9px] sm:text-[10px] font-mono opacity-70",
+                                        "text-[9px] sm:text-[10px] font-mono opacity-50 group-hover:opacity-70 transition-opacity tabular-nums",
                                         isToday ? "text-primary-foreground" : "text-muted-foreground"
                                     )}>
                                         {adDate.getDate()}
@@ -106,20 +101,20 @@ export function CalendarGrid({ currentDate, className }: CalendarGridProps) {
                                 )}
                             </div>
 
-
                             {/* Bottom Row: Event Indicator */}
                             {(hasEvent || hasUserEvent) && (
-                                <div className="mt-1 flex flex-col gap-0.5">
+                                <div className="mt-1 flex flex-col gap-1">
                                     {hasUserEvent && (
                                         <div className="flex gap-1 items-center">
-                                            <div className={cn("w-1 h-1 rounded-full bg-blue-500", isToday && "bg-blue-300")} />
+                                            <div className={cn("w-1.5 h-1.5 rounded-full bg-blue-500", isToday && "bg-blue-300")} />
+                                            <span className="text-[8px] text-muted-foreground">{eventCount}</span>
                                         </div>
                                     )}
 
                                     {hasEvent && (
                                         <p className={cn(
-                                            "text-[8px] sm:text-[9px] leading-tight line-clamp-1 truncate font-medium",
-                                            isToday ? "text-primary-foreground/90" : "text-muted-foreground"
+                                            "text-[9px] sm:text-[10px] leading-tight line-clamp-2 font-medium",
+                                            isToday ? "text-primary-foreground/90" : "text-muted-foreground group-hover:text-foreground"
                                         )}>
                                             {holiday}
                                         </p>

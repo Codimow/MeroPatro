@@ -73,9 +73,9 @@ export default function Home() {
 
   return (
     <CalendarLayout>
-      <div className="flex flex-col lg:flex-row h-full">
+      <div className="flex flex-col lg:flex-row h-full overflow-hidden">
         {/* Main Calendar Area */}
-        <div className="flex-1 flex flex-col relative">
+        <div className="flex-1 flex flex-col relative overflow-hidden">
           <CalendarHeader
             currentDate={currentDate}
             onPrevMonth={handlePrevMonth}
@@ -87,15 +87,15 @@ export default function Home() {
           {/* Floating Action Button */}
           <button
             onClick={() => setIsDialogOpen(true)}
-            className="absolute bottom-6 right-6 p-3 rounded-full bg-primary text-primary-foreground hover:bg-primary/90 transition-all shadow-md z-30"
+            className="absolute bottom-4 right-4 sm:bottom-6 sm:right-6 p-3 sm:p-4 rounded-2xl bg-primary text-primary-foreground hover:bg-accent transition-all duration-200 shadow-lg hover:shadow-xl hover:scale-110 active:scale-95 z-30 border border-border/20"
             aria-label="Add Event"
           >
-            <Plus className="w-6 h-6" />
+            <Plus className="w-5 h-5 sm:w-6 sm:h-6" />
           </button>
         </div>
 
         {/* Sidebar / Event List */}
-        <div className="w-full lg:w-80 border-t lg:border-t-0 lg:border-l border-border bg-muted/10">
+        <div className="w-full lg:w-96 h-[40vh] lg:h-full overflow-hidden">
           <EventList currentDate={currentDate} daysInMonth={daysInMonth} key={`list-${eventRefreshKey}`} />
         </div>
       </div>
