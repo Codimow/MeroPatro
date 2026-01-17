@@ -2,159 +2,99 @@
 @tailwind components;
 @tailwind utilities;
 
-@plugin "tailwindcss-animate";
-
-:root {
-  /* Premium Light Mode (Zinc/Neutral foundation + Nepali Crimson accent) */
-  --background: #fafafa;
-  /* Zinc 50 */
-  --foreground: #18181b;
-  /* Zinc 950 */
-
-  --card: #ffffff;
-  --card-foreground: #18181b;
-
-  --popover: #ffffff;
-  --popover-foreground: #18181b;
-
-  --primary: #dc2626;
-  /* Red 600 (Nepali Crimson-ish) */
-  --primary-foreground: #ffffff;
-
-  --secondary: #f4f4f5;
-  /* Zinc 100 */
-  --secondary-foreground: #18181b;
-
-  --muted: #f4f4f5;
-  --muted-foreground: #71717a;
-  /* Zinc 500 */
-
-  --accent: #f4f4f5;
-  --accent-foreground: #18181b;
-
-  --destructive: #ef4444;
-  --destructive-foreground: #ffffff;
-
-  --border: #e4e4e7;
-  /* Zinc 200 */
-  --input: #e4e4e7;
-  --ring: #dc2626;
-
-  --radius: 0.75rem;
-
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    /* Premium Dark Mode */
-    --background: #09090b;
-    /* Zinc 950 */
-    --foreground: #fafafa;
-    /* Zinc 50 */
+    /* Premium Light Mode - Inspired by Linear/Craft */
+    --background: 0 0% 99%;
+    /* #fdfdfd */
+    --foreground: 0 0% 7%;
+    /* #121212 */
 
-    --card: #18181b;
-    /* Zinc 900 */
-    --card-foreground: #fafafa;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 7%;
 
-    --popover: #18181b;
-    --popover-foreground: #fafafa;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 7%;
 
-    --primary: #dc2626;
-    --primary-foreground: #ffffff;
+    /* Nepali Crimson - Deep, Vivid, but modern #D0212E ~ HSL 356 72% 47% */
+    --primary: 356 72% 47%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: #27272a;
-    /* Zinc 800 */
-    --secondary-foreground: #fafafa;
+    --secondary: 240 5% 96%;
+    --secondary-foreground: 0 0% 7%;
 
-    --muted: #27272a;
-    --muted-foreground: #a1a1aa;
-    /* Zinc 400 */
+    --muted: 240 5% 96%;
+    --muted-foreground: 0 0% 45%;
 
-    --accent: #27272a;
-    --accent-foreground: #fafafa;
+    --accent: 240 5% 96%;
+    --accent-foreground: 0 0% 7%;
 
-    --destructive: #7f1d1d;
-    --destructive-foreground: #fafafa;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: #27272a;
-    --input: #27272a;
-    --ring: #dc2626;
+    --border: 240 5% 92%;
+    --input: 240 5% 92%;
+    --ring: 356 72% 47%;
+
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    /* Premium Dark Mode - Deep Zinc */
+    --background: 240 10% 3.9%;
+    /* #09090b */
+    --foreground: 0 0% 98%;
+
+    --card: 240 10% 4%;
+    /* #18181b roughly */
+    --card-foreground: 0 0% 98%;
+
+    --popover: 240 10% 4%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 356 72% 47%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 240 4% 16%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 240 4% 16%;
+    --muted-foreground: 240 5% 65%;
+
+    --accent: 240 4% 16%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 4% 16%;
+    --input: 240 4% 16%;
+    --ring: 356 72% 47%;
   }
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-card: var(--card);
-  --color-card-foreground: var(--card-foreground);
-  --color-popover: var(--popover);
-  --color-popover-foreground: var(--popover-foreground);
-  --color-primary: var(--primary);
-  --color-primary-foreground: var(--primary-foreground);
-  --color-secondary: var(--secondary);
-  --color-secondary-foreground: var(--secondary-foreground);
-  --color-muted: var(--muted);
-  --color-muted-foreground: var(--muted-foreground);
-  --color-accent: var(--accent);
-  --color-accent-foreground: var(--accent-foreground);
-  --color-destructive: var(--destructive);
-  --color-destructive-foreground: var(--destructive-foreground);
-  --color-border: var(--border);
-  --color-input: var(--input);
-  --color-ring: var(--ring);
-
-  --radius-sm: calc(var(--radius) - 4px);
-  --radius-md: calc(var(--radius) - 2px);
-  --radius-lg: var(--radius);
-  --radius-xl: calc(var(--radius) + 4px);
-
-  --font-sans: var(--font-sans);
-  --font-mono: var(--font-mono);
-
-  --animate-accordion-down: accordion-down 0.2s ease-out;
-  --animate-accordion-up: accordion-up 0.2s ease-out;
-
-  @keyframes accordion-down {
-    from {
-      height: 0
-    }
-
-    to {
-      height: var(--radix-accordion-content-height)
-    }
+@layer base {
+  * {
+    @apply border-border;
   }
 
-  @keyframes accordion-up {
-    from {
-      height: var(--radix-accordion-content-height)
-    }
-
-    to {
-      height: 0
-    }
+  body {
+    @apply bg-background text-foreground;
   }
-}
-
-body {
-  background-color: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-sans);
-  -webkit-font-smoothing: antialiased;
 }
 
 /* Glassmorphism Utilities */
-@utility glass {
-  background: rgba(255, 255, 255, 0.7);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+.glass {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(0, 0, 0, 0.04);
 }
 
-@utility glass-dark {
-  background: rgba(24, 24, 27, 0.7);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+.dark .glass,
+.glass-dark {
+  background: rgba(24, 24, 27, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
