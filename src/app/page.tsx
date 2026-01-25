@@ -87,10 +87,10 @@ export default function Home() {
           {/* Floating Action Button */}
           <button
             onClick={() => setIsDialogOpen(true)}
-            className="absolute bottom-4 right-4 sm:bottom-6 sm:right-6 p-3 sm:p-4 rounded-2xl bg-primary text-primary-foreground hover:bg-accent transition-all duration-200 shadow-lg hover:shadow-xl hover:scale-110 active:scale-95 z-30 border border-border/20"
+            className="absolute bottom-6 right-6 sm:bottom-8 sm:right-8 p-4 rounded-2xl bg-primary text-primary-foreground shadow-2xl shadow-primary/30 hover:shadow-primary/40 hover:scale-110 active:scale-95 z-30 transition-all duration-300 group"
             aria-label="Add Event"
           >
-            <Plus className="w-5 h-5 sm:w-6 sm:h-6" />
+            <Plus className="w-6 h-6 group-hover:rotate-90 transition-transform duration-300" />
           </button>
         </div>
 
